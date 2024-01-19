@@ -24,9 +24,11 @@ body {
 
 #time {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   margin-top: 3vw;
-  margin-left: 15vw;
+  /* margin-left: 25%;  */
   font-size: 3.5rem;
   position: absolute;
   color: aliceblue;
@@ -51,5 +53,5 @@ body {
   width: 12vw;
   border: 2px solid yellow;
   border-radius: 12px;
-  box-shadow: 5px 5px 5px #ba45e9; 
+  box-shadow: 5px 5px 5px #ba45e9;
 }
